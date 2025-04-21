@@ -49,7 +49,7 @@ const Detail = () => {
 
                     {/* Footer - Hidden on small screens, shown on larger */}
                     <div className="absolute bottom-0 left-0 w-full h-[67px] bg-[#FF7018] items-center justify-center hidden sm:flex">
-                        <p className="font-normal font-gothic text-[36px] lg:text-[40px] xl:text-[45px] text-center text-[#1E293B]">PLAY EASY</p>
+                        <p className="font-normal font-gothic text-[36px] lg:text-[40px] xl:text-[45px] text-center text-white text-[#1E293B]">PLAY EASY</p>
                     </div>
                 </div>
 
@@ -77,7 +77,7 @@ const Detail = () => {
 
                     {/* Footer - Hidden on small screens, shown on larger */}
                     <div className="absolute bottom-0 left-0 w-full h-[67px] bg-[#FF7018] items-center justify-center hidden sm:flex">
-                        <p className="font-normal font-gothic text-[36px] lg:text-[40px] xl:text-[45px] text-center text-[#1E293B]">PLAY OFTEN</p>
+                        <p className="font-normal font-gothic text-[36px] lg:text-[40px] xl:text-[45px] text-center text-white text-[#1E293B]">PLAY OFTEN</p>
                     </div>
                 </div>
 

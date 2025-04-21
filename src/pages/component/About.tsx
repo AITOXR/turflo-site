@@ -10,7 +10,7 @@ interface AboutProps {
 const About = ({ id }: AboutProps) => {
   return (
     <section id={id}>
-      <div className="relative w-full min-h-screen flex flex-col items-center md:flex-row md:items-center xl:flex-row xl:justify-center mt-[54px] md:mt-[72px] xl:mt-[53px] overflow-hidden">
+      <div className="relative w-full min-h-[120vh] flex flex-col items-center md:flex-row md:items-center xl:flex-row xl:justify-center mt-[54px] md:mt-[72px] xl:mt-[53px] overflow-hidden">
         <div className="absolute inset-0 bg-[#000] opacity-50 z-10" />
         <div
           className="absolute inset-0 bg-cover bg-center z-0"
@@ -40,7 +40,7 @@ const About = ({ id }: AboutProps) => {
                   lg:text-[22px]
                   xl:text-[18px]">
               Hosting a match or just vibin' for a quick <br/>
-              game? Turflo's the plug. No calls. No flaky DMs.<br/>
+              game? Turflo's the plug. No calls. No flaky DMs.
               Just show up and play.
             </p>
           </div>

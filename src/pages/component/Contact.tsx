@@ -262,7 +262,11 @@ const Contact = ({ id }: ContactProps) => {
                       </a>
                     </div>
                   </div>
-                  <h6 className="text-[18px] font-bold text-[#FFFFFF] mt-[56px]">Mail : support@turflo.in , info@turflo.in</h6>
+                  <div className="mt-[56px]">
+                    <p className="text-[18px] font-bold text-[#FFFFFF] whitespace-nowrap overflow-hidden text-ellipsis">
+                      Mail : support@turflo.in , info@turflo.in
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="w-1/3">
