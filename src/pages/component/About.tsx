@@ -32,7 +32,7 @@ const About = ({ id }: AboutProps) => {
                 NO SWEAT.<br />
                 WE'LL FIND<br />
                 YOU ONE
-              </span>
+              </span>  
             </h1>
 
             <p className="text-[14px] font-quicksand leading-[26px] mx-auto md:mx-0
